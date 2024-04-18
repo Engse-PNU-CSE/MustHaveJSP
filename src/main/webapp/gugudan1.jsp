@@ -9,7 +9,7 @@
 <body>
 <%
 int num = Integer.parseInt(request.getParameter("dan"));
-for(int i = 1; i <= 9; i ++) out.print(String.format("%d * %d = %d\n", num, i, num*i));
+for(int i = 1; i <= 9; i ++) out.print(String.format("%d * %d = %d <br />", num, i, num*i));
 %>
 </body>
 </html>
